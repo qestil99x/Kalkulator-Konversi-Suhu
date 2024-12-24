@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Konversi Suhu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Konversi Suhu</h1>
+        <div class="input-group">
+            <label>Pilih Jenis Suhu:</label>
+            <select id="suhuType">
+                <option value="celsius">Celsius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+            </select>
+            <label>Masukkan Nilai:</label>
+            <input type="number" id="suhuInput" placeholder="Masukkan nilai suhu">
+        </div>
+        <button onclick="hitungKonversi()">Hitung Konversi</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
